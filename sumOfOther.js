@@ -13,7 +13,7 @@ function sumOfOther(input_arr){
 		let arr_elem = sum - input_arr[i];
 		output_arr.push(arr_elem);
 	}
-	return output_arr;
+	return  output_arr;
 }
 
 console.log(sumOfOther([1,2,3,4]));
